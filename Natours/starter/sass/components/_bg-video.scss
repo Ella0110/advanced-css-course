@@ -1,0 +1,18 @@
+.bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: .15;
+
+    &__content {
+        height: 100%;
+        width: 100%;
+        //cover:内容会被缩放以完全覆盖容器，保持内容的宽高比。可能会裁剪掉内容的一部分，以确保没有空白区域。
+        object-fit: cover;
+
+    }
+
+}
